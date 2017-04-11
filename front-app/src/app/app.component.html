@@ -1,0 +1,8 @@
+<button type="button" (click)="logout()">Sign Out</button>
+<h1>
+  {{title}}
+</h1>
+<h2>Welcome {{userId}} !</h2>
+<a routerLink="front-app/page-x">Service X</a>
+<a  *ngIf="display" routerLink="front-app/page-y">Service Y</a>
+<router-outlet></router-outlet>
