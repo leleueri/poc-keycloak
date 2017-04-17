@@ -9,7 +9,8 @@
 		<module>ServiceX</module>
 		<module>ServiceY</module>
 		<module>DWAccessPoint</module>
-	</modules>
+        <module>provisioning</module>
+    </modules>
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
