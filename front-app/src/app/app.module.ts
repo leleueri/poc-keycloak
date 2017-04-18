@@ -13,7 +13,7 @@ import { KeycloakHttp, KEYCLOAK_HTTP_PROVIDER } from './keycloak/keycloak.http';
 
 @NgModule({
   declarations: [
-    AppComponent, 
+    AppComponent,
     PageYComponent,
     PageXComponent
   ],

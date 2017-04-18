@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DWAccessPoint/DWAccessPoint.iml" filepath="$PROJECT_DIR$/DWAccessPoint/DWAccessPoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenID.iml" filepath="$PROJECT_DIR$/OpenID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceX/ServiceX.iml" filepath="$PROJECT_DIR$/ServiceX/ServiceX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceY/ServiceY.iml" filepath="$PROJECT_DIR$/ServiceY/ServiceY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provisioning/provisioning.iml" filepath="$PROJECT_DIR$/provisioning/provisioning.iml" />
+    </modules>
+  </component>
+</project>
