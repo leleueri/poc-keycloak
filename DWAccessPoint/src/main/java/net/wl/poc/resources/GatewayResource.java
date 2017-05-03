@@ -30,7 +30,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-y" })
 	public String callServiceY(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "Y");
 		/*
 		 * Request requesty = new Request.Builder().url("http://localhost:8081/helloY").header("Authorization", auth).build(); Response response =
@@ -53,7 +53,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceX(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "X");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -67,7 +67,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceA(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "A");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -81,7 +81,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceB(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "B");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -95,7 +95,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceC(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "C");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -109,7 +109,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceD(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "D");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -123,7 +123,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceE(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "E");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -137,7 +137,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceF(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "F");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -151,7 +151,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceg(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "G");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -165,7 +165,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceH(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "H");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -179,7 +179,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceI(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "I");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -193,7 +193,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceJ(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "J");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -207,7 +207,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceK(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "K");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -221,7 +221,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceL(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "L");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -235,7 +235,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceM(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "M");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -249,7 +249,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceN(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "N");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -263,7 +263,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceO(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "O");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -277,7 +277,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceP(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "P");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -291,7 +291,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceQ(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "Q");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =
@@ -305,7 +305,7 @@ public class GatewayResource {
 	@Timed
 	// @RolesAllowed({ "gateway:service-x" })
 	public String callServiceR(@HeaderParam("Authorization") String auth, @Auth User principal) throws IOException {
-		System.out.println(auth);
+		// System.out.println(auth);
 		checkPermissionOnResource(auth, "R");
 		/*
 		 * Request request = new Request.Builder().url("http://localhost:8082/helloX").header("Authorization", auth).build(); Response response =

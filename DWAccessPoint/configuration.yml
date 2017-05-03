@@ -1,18 +1,17 @@
 server:
   applicationConnectors:
       - type: http
-        port: 8080
+        port: 8180
   adminConnectors:
       - type: http
-        port: 8090
+        port: 8190
 keycloak:
-  realm: my-realm
-#  realm-public-key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlxGuRIS+Z1Jusv9tOG0ssqrX1/IvCFlz4OWTMeLpSLpWx/ntSmyehgOSDJmDVJ8pI4XGvg/XkBeccXf68zpx6rzM7NBJ1ouT9Mj3CkpXhGt+ry0v6/SKzdOJ5m0pAkR9U2tJ31YzCL3SSprnmPXqiPU8jQa9h9ytlsgOtD0f4lAzIWzPWGulKDVHITsk74GJ2nkqmi0NjX7cO8N0dAdXf+wevCAdfPhr/Qxeapp6/4gs/cLdHLfrfGEdHrZE6UVWveudmyrx1GUYQDMC6z28bEof7z+e17k9pa7RE85Hmt3wRPESa81SjrY84OMlTF5nUxkKDsqKZ7MaQXRMbzgLyQIDAQAB"
-  realm-public-key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmEK0bND55GeKDLbdoWffI6QUEy174MvDCOj+4BEXXwoTpKA+kxK7y8dOo8GvtkBCNkBMuPecYtFdmGtaWnP+Oin4ajLxgbzBvjn26A71VPjks6wVtYzrtjIFulczBpu16bklJ9++rFap305YrwlhX4CwzKgKfN+whBrU5eJDp/MckCaVoSkv8W7zjPwOwqqbt8cXiG5NOrikC6AwGZP6oZjuuO5faZZakWaK7FYl2kC4JSBsFo+KEn9ikyV8tX1/1QQ8yAgFNbeD5pIuAaO4XSCCrVYWyXmqr3nZbRxhGxb/URjoeNxKZf8O9Th91B6FxW/0jVdTPGpbhDxbain4rQIDAQAB"
-  auth-server-url: http://localhost:8180/auth
+  realm: test2-realm
+  realm-public-key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAha/JOUzNo11WDRvFP+lHwzH+trHsEEPqB/bXS3/OiXw4ns5ITEu+/au2ruv1+eHUJ++52wcyqVzX6u0UwYZtsmrBw9bHM1lx/4iFb2B/fQPGQHyTDCJyUZxiaYAgeP1F+0kJFesp5BuFqwtmsVC2jPcqwWnVRoDU7seqlTnSuiKPG0G2t4BTEr4KKnz6gMZkgxTTtoZ/GPrxOD9DoGyeYoyYDnIebf1rj1hWjKeIJ1wp8Zn3NnCaVnZRcy5xPTV9Fbt5DXHbBTeyEYu9SThbmd1ieGxUWXLwIGmZDJXvCpwXjttbeNLZGtriPtCzHs8QIUeITzMcHKWrcWYF58jONwIDAQAB"
+  auth-server-url: http://10.24.130.143:8180/auth
   ssl-required: external
   resource: gateway
   bearer-only: true
   use-resource-role-mappings: true
   credentials:
-    secret: f9385d5f-048c-4541-a3e7-1c9bcce50b19
+    secret: c94baaca-f80b-4c52-ad2e-51e572cec14a

@@ -10,14 +10,15 @@ export class KeycloakService {
     console.log('*** INIT');
 
    let keycloakAuth: any = new Keycloak({
-  "realm": "my-realm",
+  "realm": "test2-realm",
   "auth-server-url": "http://localhost:8180/auth",
   "ssl-required": "external",
   "resource": "front-app",
   "clientId": "front-app",
   "credentials": {
-    "secret": "6a4dd2a7-09c6-4928-96fb-be70e42c6498"
+    "secret": "8936a14a-3acd-4a6c-ae96-556c6f969526"
   },
+  "use-resource-role-mappings": true,
   "policy-enforcer": {}
 });
 

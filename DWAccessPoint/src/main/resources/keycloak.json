@@ -1,8 +1,8 @@
 {
-  "realm": "my-realm",
-  "auth-server-url": "http://localhost:8180/auth",
+  "realm": "test2-realm",
+  "auth-server-url": "http://10.24.130.143:8180/auth",
   "resource": "gateway",
   "credentials": {
-    "secret": "f9385d5f-048c-4541-a3e7-1c9bcce50b19"
+    "secret": "c94baaca-f80b-4c52-ad2e-51e572cec14a"
   }
 }
